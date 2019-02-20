@@ -1,8 +1,7 @@
 # Primeira Prova de Projeto de Software
 Sistema para Gerenciamento de Projetos
 
-![Diagrama de Classes]
-(https://github.com/laellsr/p3Exam/blob/master/P3exame.png)
+![Diagrama de Classes](https://github.com/laellsr/p3Exam/blob/master/P3exame.png)
 
 ## Classes
 
