@@ -1,5 +1,7 @@
 # Primeira Prova de Projeto de Software
-Sistema para Gerenciamento de Projetos
+
+## Sistema para Gerenciamento de Projetos
+
 
 ![Diagrama de Classes](https://github.com/laellsr/p3Exam/blob/master/P3exame.png)
 
@@ -38,5 +40,13 @@ Também incluídos na *Main*, eles fazem a busca de dados dentro de cada lista.
 
 - adicionarUsuario(), removerUsuario() e alterarStatus().
 
-Esses métodos são polimórficos pela necessidade de generalização, 75% deles são aproveitados em todas as subclasses. Atuam em *Projeto* e em *Atividades*.
+Esses métodos são polimórficos pela necessidade de generalização, 75% deles são aproveitados em todas as subclasses. Atuam em *Projeto* e em *Atividade*.
 
+## Herança
+(*Ver imagem "Diagrama de Classes" no cabeçalho*)
+
+- Basicamente, *Projeto* e *Atividade* tem 70% dos atributos e 75% dos métodos semelhantes, então, para evitar problemas com duplicação, foi criado a superclasse *Modelo* para reunir esses dados em comum.
+
+## Tratamento de Exceções
+
+É necessário o tratamento de exceções quando os atributos de inteiro recebem valores diferentes de números, diferente dos outros atributos que podem receber valores númericos em sua entrada.
